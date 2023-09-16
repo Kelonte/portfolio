@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MIGUEL RICO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#fondoPortfolio">PORTFOLIO</a>
+                    <a class="nav-link" href="#anclaje">ACERCA DE MÍ</a>
+                    <a class="nav-link" href="#fondoForm">CONTACTO</a>
+                    <!--  active aria-current="page" -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="cuerpo">
+        <div class="tarjeta">
+            <img class="imgTarjeta" src="./img/Mike_05122022.jpeg">
+            <h2>Miguel Rico</h1>
+            <p>Técnico en Electrónica - Programador</p>
+        </div>
+        <div id="fondoPortfolio">
+            <div class="container-fluid">
+                <h3 class="titulos">PORTFOLIO</h3>
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <a class="icon-link" href="https://effulgent-lamington-b6ec59.netlify.app"
+                        target="_blank">
+                        <img src="./img/Porta01.png" class="img-fluid">
+                    </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="icon-link" href="https://relaxed-baklava-ea82b1.netlify.app"
+                        target="_blank">
+                        <img src="./img/Porta02.png" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="icon-link" href="https://remarkable-jelly-4a2a68.netlify.app/"
+                        target="_blank">
+                        <img src="./img/Porta03.png" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="anclaje"></div>
+        </div>
+        <div id="fondoAcerca">
+            <h3 class="titulos">ACERCA DE MÍ</h3>
+            <P class="txtAcerca">Cuento con gran capacidad para la organización, con una buena disposición para
+                trabajar en equipo y para adquirir conocimientos. Me caracterizo por mi
+                responsabilidad, mi capacidad de interactuar con pares y superiores y crear un
+                buen clima de trabajo.
+            </P>
+        </div>
+        <div id="fondoForm">
+            <div class="container">
+                <h3 class="titulos">CONTÁCTAME</h3>
+                <form action="https://formspree.io/f/xleyeerg" method="POST">
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+                        <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>                  
+                    </div>
+                    <button type="submit" class="btn btn-light">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <h3>DIRECCIÓN</h3>
+                    <p>
+                        Carlos Villate 4480,<br>
+                        B1605EKT Munro,<br>
+                        Provincia de Buenos Aires
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h3>EN REDES</h3>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="https://www.facebook.com/PlataformaCinco" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://twitter.com/plataforma5la" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="https://www.instagram.com/plataforma5/?hl=en" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
